@@ -13,7 +13,6 @@ import { Hello } from './components/Hello';
 
 export default class App extends Component {
   render() {
-    console.log('rendered');
     return (
       <View style={styles.container}>
         <Hello />
