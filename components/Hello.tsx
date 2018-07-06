@@ -1,17 +1,6 @@
 // components/Hello.tsx
 import React, { PureComponent } from "react"
-import { Button, StyleSheet, Text, View } from "react-native"
-
-export interface Props {
-  name: string
-  enthusiasmLevel?: number
-  onIncrement?: () => void
-  onDecrement?: () => void
-}
-
-interface State {
-  enthusiasmLevel: number
-}
+import { StyleSheet, Text, View } from "react-native"
 
 export class Hello extends PureComponent {
   render() {
